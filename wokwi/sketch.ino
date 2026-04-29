@@ -76,5 +76,5 @@ void loop() {
   sendMachineData("machine-03", temp3, m3_vib, load3);
 
   Serial.println("Fleet data sent.");
-  delay(1000); // Wait 2 seconds before next fleet update
+  delay(2000); // Wait 2 seconds before next fleet update
 }
